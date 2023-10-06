@@ -1,11 +1,10 @@
-import Image from "next/image";
 import { CardConocimientos } from "./CardConocimientos";
-import { IconType } from "react-icons";
 import { TbDeviceImacCode } from "react-icons/tb";
 import { FiFigma } from "react-icons/fi";
 import { BsRobot } from "react-icons/bs";
 import { SiCanva } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
+
 
 const Conocimientos = () => {
     return (
