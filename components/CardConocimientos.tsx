@@ -9,7 +9,7 @@ interface CardConocimientosProps {
 
 const CardConocimientos = ({ title, description, icon: Icon }: CardConocimientosProps) => {
     return (
-        <div className='flex flex-col bg-white w-[270px] text-center py-2'>
+        <div className='flex flex-col bg-white text-center py-2 items-center gap-4 w-2/6'>
             <Icon className='w-12 h-12' />
             <span className='text-2xl'>{title}</span>
             <span className='text-gris'>{description}</span>
