@@ -8,7 +8,7 @@ interface CardConocimientosProps {
 
 const CardConocimientos = ({ title, description, icon: Icon }: CardConocimientosProps) => {
   return (
-        <div className='flex flex-col bg-white text-center py-2 items-center gap-4 w-2/6 rounded-lg'>
+        <div className='flex flex-col bg-white text-center py-2 items-center gap-4 w-2/6 rounded-lg hover:scale-95'>
             <Icon className='text-[70px] text-amarillo' />
             <span className='text-2xl'>{title}</span>
             <span className='text-gris'>{description}</span>

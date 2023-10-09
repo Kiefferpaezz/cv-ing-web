@@ -10,7 +10,6 @@ const Main = () => {
             <Conocimientos/>
             <Educacion/>
             <Portafolio/>
-
         </main>
 
   )
