@@ -1,15 +1,15 @@
 interface InfoDataProps {
-    text: string;
-    val: string;
+  text: string
+  val: string
 }
 
 const InfoData = ({ text, val }: InfoDataProps) => {
-    return (
+  return (
         <div className='info'>
             <span>{text}</span>
             <span>{val}</span>
         </div>
-    )
+  )
 }
 
 export { InfoData }

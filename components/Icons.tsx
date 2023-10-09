@@ -1,14 +1,14 @@
-import { IconType } from "react-icons";
+import { type IconType } from 'react-icons'
 
 interface IconsProps {
-    Icons: IconType;
+  Icons: IconType
 }
 
-const Icons = ({ Icons, }: IconsProps) => {
-    return (
+const Icons = ({ Icons }: IconsProps) => {
+  return (
         <div className='flex items-center'>
             <span><Icons/></span>
         </div>
-    )
+  )
 }
-export { Icons}
+export { Icons }
