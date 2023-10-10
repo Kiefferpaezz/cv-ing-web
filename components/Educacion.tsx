@@ -15,7 +15,7 @@ const Educacion = () => {
                     ocupation="Estudiante"
                     date="2018 - Actualidad"
                     title="Pregado en ingeniería de sistemas"
-                    description="Me encuentro cursando el 8to nivel de ingeniería de sistemas con situación académica sobresaliente y dentro del tercio superior."
+                    description="Me encuentro cursando el 8vo nivel de ingeniería de sistemas con situación académica sobresaliente y dentro del tercio superior."
                 />
                 <Line />
                 <CardEducacion

@@ -18,7 +18,7 @@ const CardPortafolio = ({ title, description, image, link, dialogDescription }: 
 
   return (
     <div className="flex flex-col bg-white  items-start gap-4 pt-8 py-4 min-w-[30%]">
-      <img src={image} alt="Blabla" className="object-contain w-full aspect-video" />
+      <img src={image} alt="Fondo Imagen app" className="object-contain w-full aspect-video" />
       <div className="flex flex-col items-start p-4 gap-3">
         <span className="text-lg font-medium">{title}</span>
         <span className="text-gris">{description}</span>
